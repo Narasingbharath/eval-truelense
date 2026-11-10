@@ -1,0 +1,16 @@
+# TruLens + RAG triad notebook minimal dependencies
+trulens-core==2.4.2
+trulens-feedback==2.4.2
+trulens-otel-semconv==2.4.2
+trulens-providers-litellm==2.4.2
+trulens-providers-openai==2.4.2
+
+setuptools
+
+# Vector DB + LLM helpers
+chromadb
+litellm
+
+# Common scientific / HTTP libs used in notebook
+numpy
+requests
